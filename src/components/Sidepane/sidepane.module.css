@@ -1,0 +1,14 @@
+.right-pane-container {
+    /* background-color: red; */
+}
+
+.right-pane-container::-webkit-scrollbar {
+    border: none;
+    background-color: transparent;
+    z-index: inherit;
+}
+
+/* webkit browsers(safari, chrome) */
+.right-pane-container {
+    scrollbar-color: #a3a3a3 transparent;
+}
