@@ -18,7 +18,7 @@ const metadata: Metadata = {
 function Newsletter() {
     const [email, setEmail] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
-    const [responseCode, setResponseCode] = useState(null);
+    const [responseCode, setResponseCode] = useState<any>(null);
 
     // Email validation function
     const isValidEmail = (email: string) => {
